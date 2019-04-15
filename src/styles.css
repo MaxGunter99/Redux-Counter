@@ -1,0 +1,36 @@
+body{
+    text-align: center;
+}
+
+#root{
+    background-color: rgb(0, 0, 0);
+    color: white;
+    display: flex;
+    height: 175px;
+    width: 200px;
+    justify-content: center;
+    margin: 0 auto;
+    align-items: center;
+    border-radius: 10px;
+    margin-top: 100px;
+}
+
+p{
+    justify-content: center;
+}
+
+button{
+    border-radius: 100px;
+    font-size: 20px;
+    width: 50%;
+    height: 50%;
+    margin: 10px;
+}
+
+button.add:hover{
+    background-color: green;
+}
+
+button.sub:hover{
+    background-color: red;
+}
